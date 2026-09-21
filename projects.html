@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Projects | Resume</title>
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+<div id="wrapper">
+    <header>
+        <h1> Projects </h1>
+        <p> Welcome to my online resume</p>
+    </header>
+    <div id="nav">
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="education.html"> Education</a>
+                </li>
+                <li>
+                    <a href="employment.html"> Employment</a>
+                </li>
+                <li>
+                    <a href="achievements.html"> Achievements</a>
+                </li>
+                <li>
+                    <a href="projects.html"> Projects </a>
+                </li>
+                <li>
+                    <a href="skills.html"> Skills</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+        <main>
+            <h2>Financial Time-Series Analysis & Backtesting Framework</h2>
+            <p>Personal Project | January 2026 – Present |
+                <a href="https://github.com/kelvinc000/VWAP-MODEL" target="_blank">github.com/kelvinc000/VWAP-MODEL</a>
+            </p>
+            <ul>
+                <li>Built a time-series analysis pipeline to evaluate statistical relationships between technical indicators and forward returns.</li>
+                <li>Built an end-to-end pipeline in Python to collect, clean, and structure 5 years of historical equity data across all US stocks.</li>
+                <li>Developed and back-tested rules-based trading signals, labeling outcomes and measuring win rate and average return per signal.</li>
+                <li>Trained logistic regression and random forest models to score signal quality (0–100), validated with walk-forward analysis to prevent look-ahead bias.</li>
+            </ul>
+            <h2>Empirical Research on Health Insurance | Boston University</h2>
+            <p>Research Team Leader | September 2024 – December 2024</p>
+            <ul>
+                <li>Led a team of three in conducting an empirical study analyzing a dataset of 220,000 observations.</li>
+                <li>Utilized Stata for data processing, statistical analysis, and regression modeling.</li>
+                <li>Developed an econometric model to examine key research questions and extract meaningful insights.</li>
+                <li>Transferred qualitative data into quantitative variables to analyze economic disparities.</li>
+            </ul>
+            <h2>Digital Marketing Strategy Analysis</h2>
+            <p>Digital Marketing Researcher | April 2022 – August 2022</p>
+            <ul>
+                <li>Collaborated with a mentor to analyze digital marketing strategies for small to medium-sized enterprises.</li>
+                <li>Published a paper demonstrating an average 20% increase in market reach post-digital marketing implementation.</li>
+                <li>Authored an essay on new media digital marketing strategies; contributed to academic discourse on brand management.</li>
+            </ul>
+            <h2>Calculator</h2>
+            <div id="calculator">
+                <form id="calculator_form">
+                    <label> First Number: </label>
+                    <input type="number" id="first">
+                    <label> Second Number: </label>
+                    <input type="number" id="second">
+                    <div id="buttons">
+                        <button type="button" onclick = "addition()">+</button>
+                        <button type="button" onclick = "subtraction()">-</button>
+                        <button type="button" onclick = "multiplication()">*</button>
+                        <button type="button" onclick = "division()">/</button>
+                        <button type="button" onclick = "power()">**</button>
+                        <button type="button" onclick = "clear_cal()">Clear</button>
+                    </div>
+                </form>
+                <h3 id = "result"></h3>
+            </div>
+        </main>
+    <div id="footer">
+        <footer>
+            <p>All rights reserved by Qifan Zhou<a href="">Credits</a> &#169;</p>
+        </footer>
+    </div>
+</div>
+<script src="Calculator.js"></script>
+</body>
+</html>
